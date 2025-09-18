@@ -12,3 +12,16 @@ SERPER_API_KEY="serper-api-key"
 - LLM버전 변경
 
 [이 URL](https://docs.crewai.com/en/learn/llm-connections)의 절차를 참고
+
+- 실행
+
+main.py
+
+```
+result = NewsReaderAgent().crew().kickoff(inputs={"topic": "여기에 주제를 입력"})
+```
+
+```terminal
+uv sync
+uv run main.py
+```
