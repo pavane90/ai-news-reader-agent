@@ -4,7 +4,7 @@ dotenv.load_dotenv()
 
 from crewai import Crew, Agent, Task
 from crewai.project import CrewBase, agent, task, crew
-from tools import count_letters
+from tools import search_tool
 
 
 @CrewBase
